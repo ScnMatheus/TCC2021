@@ -1,0 +1,123 @@
+/**
+* Crie a sua História 0.1V
+/
+ - 01/09 - Lista de Tarefas
+
+1-Primeira Páginas: Quem somos
+    1.1 Quem somos  = Design com os slides: OK
+        -Imagens transitando a cada segundos; -----------OK
+    1.2 Menu de de Navegação no topo da pagina: 
+        1.2.1 Menu com as opções: OK
+            -Logar
+            -Cadastrar
+            -Inicio
+        1.2.2 Arrumar designer do menu de navecação: FAZER
+                -Arrumar o paragrafos e a distancia das bosdas --------Ok
+
+2-Segunda Página: Inicio das histórias
+
+    2.1 Inicio - Menu para transição dentro do site: FAZER -------OK
+        -Menu com as opções: 
+            .Logar; -OK
+            .Cadastrar; -OK
+            .Categorias;-OK
+    2.2 Conteudo- Thumb e titulos das histórias: FAZENDO
+        -Imagens das histórias; -OK
+        -Titulos das histórias; -OK
+        -Botão para visitar a página que contem a história - FAZER
+    2.3 Footer/Rodapé - Diretos Autorais: ----OK
+        - Div com informações da Página;
+
+3-Terceira Página: Cadastrar Usuários FAZER
+
+    3.1 Menu para transição no site:
+        -Menu com as opções: 
+            .Logar;OK
+            .Quem somos;OK
+            .Inicio;OK
+
+    3.2 Formulario para cadastro das contas: -----OK
+        -label com informações do input
+        -input do tipo name
+        -label com informações do password
+        -input tipo password 
+        -label com informações do USERNAME
+        -label com informações do EMAIL
+        -Botão tipo submit para cadastro do usuario no banco de dados
+    3.3 Arrumar segurança do cadastro:
+        -Verificar se os campos foram preenchidos e retornar erro.
+        -Limitar o maximo de caracteres com base no banco --- FAZER
+         
+4-Quarta Página: Logar Usuários FAZER
+
+    4.1 Menu para transição no site: --- OK
+            .Quem somos;
+            .Inicio;
+            .Cadastrar;
+
+    4.2 Formulario para logar das contas: --- OK
+        -label com informações do input
+        -input do tipo email
+        -label com informações do password
+        -input tipo password 
+
+    4.3 Arrumar segurança do login: --- OK
+        -Verificar se os campos foram preenchidos e retornar erro.
+        -criar uma SESSION para o usuario e verificar se o login e verdadeiro
+        -Limitar o maximo de caracteres com base no banco
+
+5-Quinta página: Criar pagina do usuario FAZER -- OK
+    5.1 - Dados do usuario -- OK
+
+6-Sexta página: Armazenamento do conteudo FAZER ----Ok
+    6.1 - Como o Usuario vai publicar suas histórias/ Qual ferramenta
+    6.2 - Como elas vao ser armazenadas no banco
+
+
+- 31/10 - Lista de Tarefas
+
+Usuario Deslogado:
+    1-Primeira Páginas Quem somos: ---OK
+        -Arrumar a NavBar para ficar fixada na tela. ---OK
+        -Colocar link para cadastrar --OK
+        -Arrumar Footer --OK
+    2-Segunda Página Logar:
+        -Arrumar segurança dos Inputs ---OK
+        -Arrumar CSS do "esqueceu senha" e fazer ele funcionar
+        -Arrumar CSS do "registrar" e fazer ele funcionar --- OK
+        -Achar cor do background do fundo ---OK
+        -Arrumar Footer ----OK
+    3-Terceira Página Cadastrar:
+        -Arrumar segurança dos Inputs de acordo com o banco ----OK
+        -Achar cor do background do fundo ---OK
+        -Arrumar Footer----OK
+    4-Quarta Página Inicial:
+        -Arrumar a NavBar para ficar fixada na tela. ---OK
+        -Colocar link para cadastrar ----OK
+        -Colocar cards laterais
+        -Tirar o conteudo de testos das publicações
+        -Colocar nome do usuario nas publicações 
+        -Colocar botão para acessar as historias
+        -Arrumar Footer ---OK
+
+Usuario logado:
+
+    1-Quarta Página Inicial:
+        -Trocar cor do link para o perfil do usuario na Navbar
+        -Escreva sua historia direciona para uma pagina de criação de conteudo para o perfil
+    2-Segunda Página Quem Somos?:
+        -Escreva sua historia direciona para uma pagina de criação de conteudo para o perfil
+    3-Terceira Página Perfil:
+        -Criar destroi a sessão do usuario e desloga o mesmo e direciona para a pagina quem somos.
+        -Escreva sua historia direciona para uma pagina de criação de conteudo para o perfil
+        -A navBar do usuario estara linkada com as informações do Banco de dados. FGazer função para puxar essas informaçoes
+        -Trocar botão Follow por Editar perfil
+        -Colocar um Footer
+
+Criação de novas paginas:
+    - Criar pagina da publicação escolhida para visualização do Usuario
+    - Criar paragina que só apareça quando o usuario estiver logado para a criação de suas historias
+    - Criar pagina para a edição do perfil do usuario
+
+Banco de dados:
+    - Adicionar camnpo seguidores a tabela usuario

@@ -1,0 +1,17 @@
+body {
+    background-color:#fc8a08;
+    height: 100%;
+    font-family: Tahoma;
+
+  }
+  
+  .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: #b85cf5;
+    text-align: center;
+  }
